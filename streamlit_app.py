@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-!pip install pyodbc
+pip install pyodbc
 import pyodbc
 from pandasai import SmartDataframe as PandasAI
 from pandasai.llm import OpenAI
